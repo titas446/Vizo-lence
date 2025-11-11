@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Lora';
+}
+.navbar {
+    padding: 14px 0px;
+}
+.navbar-brand {
+    font-family: 'Lora';
+    font-size: 30px;
+    position: relative;
+}
+.nav-img img {
+    position: absolute;
+    width: 32px;
+    right: 0;
+    top: -8px;
+}
+.nav-img2 img {
+    position: absolute;
+    width: 30px;
+    left: 0;
+    top: -7px;
+}
+.navbar-nav2 li {
+    display: inline-block;
+    margin: 0px 4px;
+}
+.navbar-nav2 li a {
+    font-weight: 700;
+    font-family: 'Oswald';
+}
+.navbar-nav  li {
+    margin: 0px 6px;
+    font-family: 'Oswald';
+}
+/* home-banner css */
+.home-banner {
+    background-image: url(img/bg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0px;
+}
+.home-banner-para {
+    font-family: 'Playfair Display';
+}
+.ho-ban-h {
+    font-size: 46px;
+}
+/* test-con css */
+.test-sec {
+    padding: 40px 0px;
+}
+.test-con {
+    background-image: url(img/2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+.test-con a button {
+    padding: 9px 24px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Lora';
+}
+.collection-sec {
+    padding: 40px 0px;
+}
+.collection-head {
+    font-family: 'Lora';
+    letter-spacing: 1px;
+    position: relative;
+}
+.ht-cl {
+    position: absolute;
+    right: 36%;
+    top: -10px;
+    font-size: 20px;
+    transform: rotate(24deg);
+}
+.collection-box {
+    margin-top: 20px;
+}
+.collection-box p {
+    margin-bottom: 3px;
+}
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    animation: float 5s linear infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100vh); opacity: 0; }
+}
+.collection-box img {
+    width: 100%;
+}
+.view-btn button {
+    border: 1px solid black;
+    padding: 9px 24px;
+    background-color: #030303;
+    color: #fff;
+}
+.brands-sec {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    margin: 10px 0px;
+}
+.brands-sec img {
+    margin: 10px;
+}
+.whatsapp  {
+    position: fixed;
+    bottom: 20px;
+    right:-10px;
+}
+.whatsapp img {
+    width: 50px;
+    position: relative;
+    z-index: -1;
+}
+.chirst-ht {
+    position: absolute;
+    right: 40px;
+    top: -10px;
+    z-index: 999;
+    transform: rotate(40deg);
+}
+.about-left img {
+    width: 100%;
+    height: auto;
+}
+.about-box img {
+    width: 100%;
+}
+.about-box button {
+    padding: 6px 26px;
+    border: 1px solid #030303;
+    background-color: transparent;
+}
+.about-sec form {
+    background-color: #c7c4c4;
+    padding: 10px;
+}
+.about-btn input {
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #030303;
+    border: 1px solid #030303;
+    color: #fff;
+    &:hover {
+        background-color: transparent;
+        border: 1px solid #030303;
+        color: #030303;
+        transition: all ease 0.4s;
+    }
+}
+.footer {
+    background-color: #030303;
+    padding: 30px 0px;
+}
+.footer-right ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-right ul li a {
+    color: #c7c4c4;
+    font-size: 20px;
+    border: 1px solid #c7c4c4;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+@media screen and (max-width:400px) {
+    .ht-cl {
+        display: none;
+    }
+}
